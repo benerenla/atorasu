@@ -22,9 +22,7 @@ export const SpotifyCard: FC = () => {
     <div className="flex h-16 w-80 items-center rounded">
       <FaSpotify className="h-10 w-10 text-green-500" />
       <h1 className="px-2 text-center">
-        {!loading
-          ? null
-          : getSpotifyData().name + ' - ' + getSpotifyData().creator}{' '}
+        {!loading && getSpotifyData().name + ' - ' + getSpotifyData().creator}{' '}
       </h1>
     </div>
   )
