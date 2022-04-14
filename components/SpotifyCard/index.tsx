@@ -9,6 +9,7 @@ export const SpotifyCard: FC = () => {
   })
 
   const getSpotifyData = () => {
+    console.log(status, loading)
     switch (status?.spotify) {
       default:
         return {
