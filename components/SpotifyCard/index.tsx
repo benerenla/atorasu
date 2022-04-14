@@ -3,13 +3,13 @@ import { FaSpotify } from 'react-icons/fa'
 import { useLanyard } from 'react-use-lanyard'
 
 export const SpotifyCard: FC = () => {
-  const { loading, status /*, websocket */ } = useLanyard({
+  const { loading, status } = useLanyard({
     userId: '760499240966684683',
     socket: true,
   })
 
   const getSpotifyData = () => {
-    switch (!loading && status?.spotify) {
+    switch (status?.spotify) {
       default:
         return {
           name: status?.spotify?.song,
