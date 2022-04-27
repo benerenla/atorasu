@@ -25,7 +25,7 @@ export const Content: FC = () => {
         <div className="flex justify-center">
           <img
             className=" w-2/4 rounded-lg md:h-52 md:w-56"
-            src="https://cdn.discordapp.com/avatars/760499240966684683/a_8ec9498f66590a4b95d54284b9634fa9.gif?size=2048"
+            src="https://cdn.discordapp.com/avatars/760499240966684683/a_dba85b5a642edaca85e521f4b774d73a.gif?size=2048"
           />
         </div>
       </div>
